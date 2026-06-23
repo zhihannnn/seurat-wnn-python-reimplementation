@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+statsmodels
+scanpy
+torch
+python-igraph
+leidenalg
