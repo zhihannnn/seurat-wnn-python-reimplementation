@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Data and large outputs
+data/
+outputs/
+*.mtx
+*.h5ad
+*.h5seurat
+*.rds
+*.pt
+*.npz
+*.csv
+
+# Keep selected lightweight example files if needed
+!figures/*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
