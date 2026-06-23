@@ -1,3 +1,6 @@
+**Project status:** Ongoing methodological reproduction project.  
+**Main purpose:** Understanding and reproducing the algorithmic steps of Seurat v4 WNN in Python/R.
+
 # Python Reimplementation of Seurat Weighted Nearest Neighbor Analysis
 
 This repository contains a Python/R methodological reproduction of the Seurat v4 Weighted Nearest Neighbor (WNN) workflow for multimodal single-cell RNA and ADT data integration.
@@ -171,6 +174,13 @@ OUT_DIR = BASE_DIR / "outputs"
 ```
 
 This repository is intended to demonstrate algorithmic understanding and reproducible implementation of WNN-related steps rather than provide a ready-to-use general-purpose software package.
+
+## Current Limitations
+
+- The current version is a methodological reproduction rather than a packaged software tool.
+- Some scripts still contain local development paths and need to be refactored before general reuse.
+- Raw single-cell count matrices and large intermediate files are not included in this repository.
+- Reproduction currently requires users to prepare R-exported Seurat intermediate files manually.
 
 ## References
 
